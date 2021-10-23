@@ -1,4 +1,4 @@
-export const api = 'https://gurudevadmin.herokuapp.com/api/';
+export const api = 'https://aloadmin.herokuapp.com/api/';
 export const gernateImages =(img)=>{
-    return `https://gurudevadmin.herokuapp.com${img}`;
+    return `https://aloadmin.herokuapp.com${img}`;
 };
