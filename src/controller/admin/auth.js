@@ -68,7 +68,7 @@ exports.signin = (req, res) => {
                         hash_password,
                          } = data;
                     res.cookie('token',token,{expiresIn: '8h'});
-                    res.status(200).json({
+                   return res.status(200).json({
                         token,
                         userdata: {
                             name,
